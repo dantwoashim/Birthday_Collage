@@ -1,0 +1,44 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - paragraph [ref=e4]: A birthday room made of light, film, and memory
+    - paragraph [ref=e5]:
+      - generic [ref=e6]: H
+      - generic [ref=e7]: a
+      - generic [ref=e8]: p
+      - generic [ref=e9]: p
+      - generic [ref=e10]: "y"
+      - generic [ref=e11]: B
+      - generic [ref=e12]: i
+      - generic [ref=e13]: r
+      - generic [ref=e14]: t
+      - generic [ref=e15]: h
+      - generic [ref=e16]: d
+      - generic [ref=e17]: a
+      - generic [ref=e18]: "y"
+    - paragraph [ref=e19]: Press F whenever you want the collage to open in fullscreen. Escape will always bring you back.
+    - button "Open the collage" [ref=e20] [cursor=pointer]
+  - main [ref=e21]:
+    - generic [ref=e22]:
+      - article "Birthday wish":
+        - heading "Happy Birthday" [level=1]
+        - paragraph: May your heart always remain light, your smile always sincere, and your path always lead you toward places, people and possibilities that feel meant for you
+      - paragraph [ref=e23]:
+        - generic [ref=e24]: F
+        - text: fullscreen
+      - generic "Birthday memory collage":
+        - button "Open birthday photo 1" [ref=e25]:
+          - img "Birthday memory 1" [ref=e30]
+        - button "Open birthday photo 2" [ref=e31]:
+          - img "Birthday memory 2" [ref=e36]
+        - button "Open birthday photo 3" [ref=e37]:
+          - img "Birthday memory 3" [ref=e42]
+        - button "Open birthday photo 4" [ref=e43]:
+          - img "Birthday memory 4" [ref=e48]
+        - button "Open birthday photo 5" [ref=e49]:
+          - img "Birthday memory 5" [ref=e54]
+        - button "Open birthday photo 6" [ref=e55]:
+          - img "Birthday memory 6" [ref=e60]
+        - button "Open birthday photo 7" [ref=e61]:
+          - img "Birthday memory 7" [ref=e66]
+        - button "Open birthday photo 8" [ref=e67]:
+          - img "Birthday memory 8" [ref=e72]

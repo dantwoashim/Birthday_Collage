@@ -1,0 +1,18 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - paragraph [ref=e4]: A birthday room made of light, film, and memory
+    - paragraph
+    - paragraph [ref=e5]: Press F whenever you want the collage to open in fullscreen. Escape will always bring you back.
+    - button "Open the collage" [ref=e6]
+  - dialog [ref=e7]:
+    - button [ref=e8]: Close
+    - img [ref=e10]
+  - main [ref=e11]:
+    - generic [ref=e12]:
+      - article "Birthday wish" [ref=e13]:
+        - paragraph [ref=e14]: for the one who makes every frame glow
+        - heading "Happy Birthday" [level=1] [ref=e15]
+        - paragraph [ref=e16]: "May this year arrive like soft gold on glass, warm, rare, and impossible to forget. Every memory here already knows the truth: life looks gentler, brighter, and far more beautiful with you in it."
+        - paragraph [ref=e17]: Made from the moments that still shimmer.
+      - paragraph [ref=e18]: F fullscreen
+      - generic "Birthday memory collage"

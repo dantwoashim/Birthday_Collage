@@ -4,11 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="theme-color" content="#0e0a17">
+    <meta name="theme-color" content="#07080b">
     <title>Happy Birthday</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Cormorant+Garamond:wght@500;600;700&family=Parisienne&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Cormorant+Garamond:wght@500;600;700&family=Parisienne&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -25,9 +25,10 @@
 
     <div id="introOverlay" class="intro-overlay" aria-hidden="false">
         <div class="intro-panel">
-            <h1 id="introTitle" class="intro-title"></h1>
-            <p class="intro-copy">A little collage of your favorite moments.</p>
-            <button id="introSkip" class="intro-skip" type="button">Step inside</button>
+            <p class="intro-kicker">A birthday room made of light, film, and memory</p>
+            <p id="introTitle" class="intro-title"></p>
+            <p class="intro-copy">Step into a collage where every photograph keeps glowing and the whole screen moves like a soft dream.</p>
+            <button id="introSkip" class="intro-skip" type="button">Open the collage</button>
         </div>
     </div>
 
@@ -41,31 +42,33 @@
     <main class="scene-shell">
         <section class="stage" id="stage">
             <div class="stage-wash" aria-hidden="true"></div>
-            <div class="stage-rim" aria-hidden="true"></div>
+            <div class="stage-aurora" aria-hidden="true"></div>
+            <div class="stage-grid" aria-hidden="true"></div>
+            <div class="stage-lines" aria-hidden="true"></div>
+            <div class="stage-vignette" aria-hidden="true"></div>
             <div class="stage-noise" aria-hidden="true"></div>
-            <div class="stage-orbit stage-orbit-a" aria-hidden="true"></div>
-            <div class="stage-orbit stage-orbit-b" aria-hidden="true"></div>
+            <div class="stage-rim" aria-hidden="true"></div>
+            <div class="stage-ring stage-ring-a" aria-hidden="true"></div>
+            <div class="stage-ring stage-ring-b" aria-hidden="true"></div>
+            <div class="stage-bloom bloom-a" aria-hidden="true"></div>
+            <div class="stage-bloom bloom-b" aria-hidden="true"></div>
+            <div class="particle-layer particle-layer-back" id="particleLayerBack" aria-hidden="true"></div>
+            <div class="particle-layer particle-layer-mid" id="particleLayerMid" aria-hidden="true"></div>
+            <div class="particle-layer particle-layer-front" id="particleLayerFront" aria-hidden="true"></div>
+            <div class="glint-layer" id="glintLayer" aria-hidden="true"></div>
 
-            <article class="hero-panel" id="heroPanel">
-                <div class="hero-float">
-                    <h1 class="hero-title">
-                        <span>Happy</span>
-                        <span>Birthday</span>
-                    </h1>
-                    <p class="hero-copy">Wishing you a day as beautiful as these memories.</p>
-                </div>
+            <article class="wish-panel" aria-label="Birthday wish">
+                <p class="wish-script"></p>
+                <h1 class="wish-title">
+                    <span>Happy</span>
+                    <span>Birthday</span>
+                </h1>
+                <p class="wish-copy">May your heart always remain light, your smile always sincere, and your path always lead you toward places, people and possibilities that feel meant for you</p>
             </article>
 
-            <div class="memory-grid" id="collageWrapper" aria-label="Birthday memory collage"></div>
+            <p id="fullscreenHint" class="fullscreen-hint" aria-live="polite"><kbd>F</kbd> fullscreen / <kbd>Esc</kbd> exit</p>
 
-            <button id="fullscreenBtn" class="fullscreen-btn" type="button" aria-label="Toggle fullscreen">
-                <svg id="fsIconExpand" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
-                    <path d="M9 3H5a2 2 0 0 0-2 2v4"></path>
-                    <path d="M15 3h4a2 2 0 0 1 2 2v4"></path>
-                    <path d="M21 15v4a2 2 0 0 1-2 2h-4"></path>
-                    <path d="M3 15v4a2 2 0 0 0 2 2h4"></path>
-                </svg>
-            </button>
+            <div class="memory-grid" id="collageWrapper" aria-label="Birthday memory collage"></div>
         </section>
     </main>
 
